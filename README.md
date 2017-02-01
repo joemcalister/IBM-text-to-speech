@@ -8,7 +8,7 @@ include_once("IBMClient.php");
 ```
 
 ## How to use
-Initiate the IBMClient class and pass it the voice id you wish to generate your speech using, more information and id's are available on IBM's website as linked above.
+Initiate the IBMClient class and pass it the 'voice id' you wish to generate your speech using, more information and id's are available on IBM's website as linked above.
 ```php
 $client = new IBMClient("en-US_AllisonVoice");
 ```
